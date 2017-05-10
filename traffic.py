@@ -84,7 +84,7 @@ class GameState:
 
         self.score =0 
     def frame_step(self ,input_actions,t):
-        #clock.tick(FPS)
+        clock.tick(FPS)
 
         if input_actions[1] == 1:
             # increment speed

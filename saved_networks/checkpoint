@@ -1,2 +1,2 @@
-model_checkpoint_path: "traffic-dqn-20000"
-all_model_checkpoint_paths: "traffic-dqn-20000"
+model_checkpoint_path: "traffic-dqn-60000"
+all_model_checkpoint_paths: "traffic-dqn-60000"
