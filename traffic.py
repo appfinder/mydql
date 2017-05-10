@@ -1,9 +1,9 @@
 import numpy as np
 import sys
-#import random
-#import pygame
-#import pygame.surfarray as surfarray
-#from pygame.locals import *
+import random
+import pygame
+import pygame.surfarray as surfarray
+from pygame.locals import *
 from itertools import cycle
 
 import os
@@ -28,7 +28,7 @@ TILE_SIZE =16
 
 WORD_WIDTH = 9 * TILE_SIZE 
 WORD_HEIGHT = 19 * TILE_SIZE 
-"""
+
 pygame.init()
 pygame.font.init()
 SCREEN = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGH), pygame.RESIZABLE)
@@ -41,7 +41,7 @@ car_image = pygame.image.load('data/black.png').convert_alpha()
  
 
 clock = pygame.time.Clock()
-"""
+
 starts = [
     {'y': 0 *TILE_SIZE, 'x': 3 *TILE_SIZE, 'start': 'down'},
     {'y': 0*TILE_SIZE , 'x': 4*TILE_SIZE , 'start': 'down'},
@@ -117,7 +117,7 @@ class GameState:
             terminal =True
             reward =-100
             self.score =0 
-        """
+        
         pygame.display.set_caption(str(self.state[0,2]))
 
         #drawing
@@ -129,7 +129,7 @@ class GameState:
         pygame.display.set_caption(str(self.state[0,2]))
         pygame.display.update()
         #image_data = pygame.surfarray.array3d(pygame.display.get_surface())
-        """
+        
         return self.state , reward , terminal , self.score
 
     def arrived(self):
