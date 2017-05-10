@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="10" height="20" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="preview" tilewidth="32" tileheight="32" tilecount="768" columns="32">
+  <image source="preview.jpg" width="1024" height="768"/>
+  <tile id="26">
+   <properties>
+    <property name="start" value="down"/>
+   </properties>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="start" value="down"/>
+   </properties>
+  </tile>
+  <tile id="71">
+   <properties>
+    <property name="start" value="left"/>
+   </properties>
+  </tile>
+  <tile id="103">
+   <properties>
+    <property name="start" value="left"/>
+   </properties>
+  </tile>
+  <tile id="129">
+   <properties>
+    <property name="start" value="right"/>
+   </properties>
+  </tile>
+  <tile id="161">
+   <properties>
+    <property name="start" value="right"/>
+   </properties>
+  </tile>
+  <tile id="252">
+   <properties>
+    <property name="start" value="up"/>
+   </properties>
+  </tile>
+  <tile id="253">
+   <properties>
+    <property name="start" value="up"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="10" height="20">
+  <data encoding="csv">
+0,0,186,27,28,29,30,191,0,0,
+0,0,706,707,708,709,710,711,0,0,
+0,0,738,739,740,741,742,743,0,0,
+0,0,706,707,708,709,710,711,0,0,
+0,0,706,707,708,709,710,711,0,0,
+0,0,738,739,740,741,742,743,0,0,
+0,0,18,19,20,21,22,23,0,0,
+35,49,50,51,52,53,54,55,56,34,
+66,81,82,83,84,85,86,87,88,72,
+98,113,114,115,116,117,118,119,120,104,
+130,145,146,147,148,149,150,151,152,136,
+162,177,178,179,180,181,182,183,184,168,
+195,209,210,211,212,213,214,215,216,194,
+0,0,242,243,244,245,246,247,0,0,
+0,0,706,707,708,709,710,711,0,0,
+0,0,706,707,708,709,710,711,0,0,
+0,0,738,739,740,741,742,743,0,0,
+0,0,706,707,708,709,710,711,0,0,
+0,0,738,739,740,741,742,743,0,0,
+0,0,90,251,252,253,254,95,0,0
+</data>
+ </layer>
+</map>
