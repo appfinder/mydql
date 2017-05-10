@@ -245,8 +245,8 @@ def trainNetwork(s, readout, sess):
         t += 1
 
         # save progress every 10000 iterations
-        #if t % 10000 == 0:
-        #    saver.save(sess, 'saved_networks/' + GAME + '-dqn', global_step = t )
+        if t % 10000 == 0:
+            saver.save(sess, 'saved_networks/' + GAME + '-dqn', global_step = t )
 
         
 
